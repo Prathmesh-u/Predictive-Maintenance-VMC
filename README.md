@@ -1,18 +1,15 @@
-# 🛠️ Predictive Maintenance for VMC Machines (Industry 4.0 Application)
+# Predictive Maintenance for VMC Machines (Industry 4.0 Application)
 
 This is a real-world, data-driven application I built after working with actual shop-floor data from a VMC (Vertical Machining Center) and bending machine in an Industry 4.0-enabled manufacturing setup.
 
 The goal was to:
-- Analyze machine behavior*
-- **Detect early signs of tool failure
+- **Analyze machine behavior**
+- **Detect early signs of tool failure**
 - **Improve part quality**
 - **Minimize downtime**
 
-> This project is part of my long-term technical journey – Blueprint 2025 – to build impactful, real-use AI products from scratch.
 
----
-
-## 🔍 Project Overview
+## Project Overview
 
 ✅ This project takes in key machine parameters like:
 - Spindle speed
@@ -30,16 +27,13 @@ Using **threshold-based logic and parameter relationships**, it predicts:
 
 It also logs every evaluation for traceability, and includes a batch mode for uploading multiple records at once.
 
----
 
-## 🚀 Live Demo
+## Live Demo
 
-👉 [Click here to try the deployed app](https://your-username.streamlit.app)  
-*(Replace this with your actual Streamlit URL)*
+👉 [Click here to try the deployed app](https://predictive-maintenance-vmc.streamlit.app/)  
 
----
 
-## 🧠 How It Works (Rule-based ML-like Logic)
+## How It Works (Rule-based ML-like Logic) 🧠
 
 Instead of relying on traditional ML models trained on synthetic data (which was inconsistent), I built a **smart rule-based engine** using actual domain knowledge and industry insights.
 
@@ -56,20 +50,18 @@ The app dynamically shows:
 
 This makes the system explainable and ready for industrial use where decisions must be backed by logic.
 
----
 
-## 🧩 Features
+## Features ⚙️
 
-- 📊 **Manual Mode** with sliders for real-time testing
-- 📂 **Batch Mode** via CSV file upload
-- 🧾 **Evaluation Log** stored locally for future audit
-- 🎛️ **Professional UI** with metrics and defect diagnosis
-- 🧠 **Explainable outputs** (no black-box ML here)
-- ⚙️ Built in **Python + Streamlit**, deployable on any platform
+-  **Manual Mode** with sliders for real-time testing
+-  **Batch Mode** via CSV file upload
+-  **Evaluation Log** stored locally for future audit
+-  **Professional UI** with metrics and defect diagnosis
+-  **Explainable outputs** (no black-box ML here)
+-  Built in **Python + Streamlit**, deployable on any platform
 
----
 
-## 📁 Tech Stack
+## Tech Stack 📁
 
 - Python 3.11+
 - Streamlit
@@ -78,9 +70,8 @@ This makes the system explainable and ready for industrial use where decisions m
 - VS Code for development
 - GitHub + Streamlit Cloud for deployment
 
----
 
-## 🏭 Real-World Application
+## Real-World Application
 
 This project is based on real industrial data from a plant I visited. I personally collected, cleaned, and analyzed over 3,000 entries from VMC and bending machine logs.
 
@@ -89,15 +80,13 @@ It was also used to:
 - Understand root causes behind part rejections
 - Guide predictive maintenance practices
 
----
 
-## 📈 Sample Screenshots
+## 📈 Sample Screenshot 
+![image](https://github.com/user-attachments/assets/dc1d9075-1c62-497c-950f-b49f0fc026de)
 
-*(Add these manually in GitHub if needed)*
 
----
 
-## 📚 How to Run Locally
+## How to Run Locally📚
 
 ```bash
 git clone https://github.com/Prathmesh-u/Predictive-Maintenance-VMC.git
